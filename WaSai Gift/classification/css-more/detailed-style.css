@@ -1,0 +1,310 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+/*
+商品信息主体 - begin*/
+
+.detailed-subject {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.detailed-welcome-bg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+    z-index: 5;
+}
+
+.detailed-shop-box {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    padding-top: 70px;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}
+
+.shop-info-container {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.info-container-bar {
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+.container-bar-left {
+    position: relative;
+    float: left;
+    width: 65%;
+    height: 530px;
+}
+
+.container-bar-right {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 530px;
+}
+
+.bar-left-imgs {
+    position: relative;
+    width: 760px;
+    height: 510px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.bar-left-img-big {
+    position: relative;
+    float: left;
+    margin: 20px;
+    width: 470px;
+    height: 400px;
+}
+
+.bar-left-img-test {
+    position: relative;
+    display: block;
+    width: 470px;
+    height: 400px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.bar-left-img-list {
+    position: relative;
+    float: left;
+    margin: 10px 0 10px 20px;
+    width: 230px;
+    height: 400px;
+}
+
+.left-list-ul {
+    position: relative;
+    display: block;
+}
+
+.left-list-li {
+    position: relative;
+    width: 210px;
+    height: 80px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.list-li-box {
+    position: relative;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.bar-left-img-info {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 620px;
+    height: 50px;
+    font-size: 14px;
+    color: #d0d0d0;
+}
+
+.bar-right-info {
+    position: relative;
+    width: 400px;
+    height: 510px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.right-info-list {
+    position: relative;
+    width: 400px;
+    height: 510px;
+    padding: 20px;
+}
+
+.list-shop-title {
+    position: relative;
+    padding-left: 15px;
+    border-left: 5px solid #d1393c;
+}
+
+.list-shop-info {
+    position: relative;
+    padding: 15px 15px;
+    width: 100%;
+    height: 100px;
+}
+
+.list-shop-info p {
+    font-size: 12px;
+}
+
+.list-shop-purchase {
+    position: relative;
+    padding: 15px 15px;
+    width: 100%;
+    height: 230px;
+}
+
+.purchase-price-item {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.price-item-left {
+    position: relative;
+    float: left;
+    padding-right: 5px;
+    text-align: right;
+    width: 15%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price-item-right {
+    position: relative;
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    width: 85%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.price-item-right p {
+    font-size: 20px;
+    color: #d1393c;
+    font-weight: 600;
+}
+
+.shop-style {
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 3px 3px;
+    height: 30px;
+    line-height: 22px;
+    margin-right: 20px;
+    font-size: 14px;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+
+}
+.on {
+    border: 1px solid #d1393c;
+    color: #d1393c;
+}
+
+.shop-style:hover {
+    border: 1px solid #d1393c;
+    color: #d1393c;
+}
+
+.purchase-input {
+    position: relative;
+    text-align: center;
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background:linear-gradient(90deg, #d1393c, #d1393c, #b1b1b1, #b1b1b1);
+    background-size: 300% 300%;
+    background-position: 1% 50%;
+    transition: .5s;
+    cursor: pointer;
+    outline: none;
+}
+
+.purchase-input:hover {
+    color: #333;
+    background-position: 99% 50%;
+}
+
+.question-shop {
+    position: relative;
+    display: block;
+    float: right;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+
+}
+
+
+.info-relevant {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.relevant-bar {
+    position: relative;
+    width: 1180px;
+    line-height: 80px;
+    height: 80px;
+    padding-left: 50px;
+    margin: 10px;
+    background: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.relevant-bar a {
+    margin-right: 40px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.relevant-bar a:hover {
+    color: #d1393c;
+}
+
+/*
+商品信息主体 - end*/
+

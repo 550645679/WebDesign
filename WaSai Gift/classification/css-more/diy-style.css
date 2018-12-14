@@ -1,0 +1,276 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url("../img-more/diy-img/diy.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+/*
+礼物定制流程 - begin*/
+.diy-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.diy-pass-box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: rgba(94, 94, 94, 0.1);
+}
+
+.pass-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: 1200px;
+    width: 100%;
+    height: 400px;
+}
+
+.diy-gifts-title {
+    position: relative;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 90px;
+}
+
+.diy-gifts-list {
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+
+.diy-list-ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 260px;
+}
+
+.diy-list-li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 260px;
+    padding: 20px;
+}
+
+.diy-li-item {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.li-item-title {
+    position: relative;
+    padding-left: 15px;
+    border-left: 3px solid #d63d40;
+}
+
+.li-item-title h3,
+.li-item-title p {
+    margin: 0;
+    padding: 0;
+}
+
+.li-item-info {
+    position: relative;
+}
+
+.item-info-img {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    color: #B3B3B3;
+    text-align: center;
+}
+
+.li-item-info p {
+    text-align: right;
+    font-size: 14px;
+}
+
+/*
+礼物定制流程 - end*/
+
+/*
+礼品定制推荐 - begin*/
+.diy-enum-box {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: rgba(94, 94, 94, 0.1);
+}
+
+.enum-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+}
+
+.diy-enum-title {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+
+.diy-enum-list {
+    position: relative;
+    width: 100%;
+    height: 360px;
+}
+
+.enum-list-ul {
+    position: relative;
+    width: 100%;
+    height: 360px;
+}
+
+.enum-list-li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 360px;
+    padding: 20px 5px;
+}
+
+.enum-li-item {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    padding: 15px;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.enum-li-item:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.enum-li-item img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 230px;
+}
+
+.enum-li-item h5 {
+    margin-top: 5px;
+}
+
+.enum-li-item p {
+    font-size: 14px;
+    color: #B3B3B3;
+}
+
+/*
+礼品定制推荐 - end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

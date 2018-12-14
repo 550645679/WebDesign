@@ -1,0 +1,462 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url("../img-more/all-gifts-img/all.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+/*
+导航栏部分 - begin*/
+.header-nav-bar {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+    transition: .2s;
+    z-index: 5;
+}
+
+.relative {
+    position: relative;
+    opacity: 1;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-60px);
+}
+
+.nav-bar-box {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.nav-bar-item {
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    width: 120px;
+    height: 60px;
+}
+
+.nav-bar-item:hover > a {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-bar-item-href {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 120px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.bar-item-list {
+    position: absolute;
+    display: block;
+    padding: 8px;
+    border: 1px solid #d7d6e2;
+    background: #fff;
+    transform: scale(0.001);
+    opacity: 0;
+    transition: .2s;
+}
+
+.bar-item-li {
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    width: 160px;
+    margin: 0 auto;
+    text-align: left;
+    transition: .2s;
+}
+
+.bar-item-li a {
+    display: block;
+    width: 130px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.nav-bar-item:hover .bar-item-list {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.bar-item-li:hover {
+    background: rgba(177, 177, 177, 0.39);
+}
+
+.bar-item-li:hover a {
+    transform: translateX(10px);
+
+}
+
+/*
+导航栏部分 - end*/
+
+.all-gifts {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.all-gifts-box {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: rgba(94, 94, 94, 0.1);
+}
+
+.all-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: 1200px;
+    width: 100%;
+    height: 900px;
+}
+
+.all-container-left {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 10px 15px;
+    background: #fff;
+}
+
+.all-list-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+.list-item-title {
+    position: relative;
+    padding-left: 10px;
+    border-left: 3px solid #d63d40;
+}
+
+.list-item-title h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.list-item-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #B3B3B3;
+}
+
+.list-item-li {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+
+.li-who {
+    position: relative;
+    float: left;
+    padding: 2px 5px;
+    margin: 3px 10px 3px 2px;
+    cursor: pointer;
+}
+
+.all-li-on {
+    color: #fff;
+    background: rgb(231, 63, 66);
+}
+
+.li-who:hover {
+    color: #fff;
+    background: rgb(231, 63, 66);
+}
+
+.all-container-right {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+}
+
+.all-list-shop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.list-shop-title {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+.shop-title-info {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    border-bottom: 2px solid #d63d40;
+}
+
+.shop-checks {
+    position: relative;
+    height: 85px;
+    padding: 5px 10px;
+    border-top: 1px solid #333;
+    border-bottom: 1px dashed #333;
+    clear: both;
+}
+
+.checks-info {
+    position: relative;
+    float: left;
+    padding: 2px 5px;
+    margin: 3px 10px 3px 2px;
+    cursor: pointer;
+}
+
+.list-shop-item {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+}
+
+.shop-item-ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.shop-item-li {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    padding: 5px;
+    transition: .2s;
+}
+
+.shop-item-li:hover {
+    transform: translateY(-10px);
+}
+
+.shop-item-li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.li-gifts-box {
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.all-gifts-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #949497;
+}
+
+.all-gifts-img h4 {
+    position: absolute;
+    display: block;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background: rgba(114, 76, 104, 0.39);
+    border: 1px solid rgba(148, 148, 148, 0.65);
+}
+
+.shop-item-li a p {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.all-1 {
+    background: url("../img-more/diy-img/diy-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.all-2 {
+    background: url("../img-more/diy-img/diy-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.all-3 {
+    background: url("../img-more/diy-img/diy-4.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.all-4 {
+    background: url("../img-more/festival-img/occident-img/occident-7.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.all-5 {
+    background: url("../img-more/festival-img/tradition-img/tradition-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.all-6 {
+    background: url("../img-more/festival-img/occident-img/occident-6.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.list-shop-bottom {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+.page-box {
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.page-item {
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.page-butt {
+    color: #B3B3B3;
+    width: 50px;
+    font-size: 14px;
+}
+
+.page-body {
+    color: #333;
+    font-weight: 600;
+}
+
+.page-item-li {
+    border-radius: 50px;
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.page-li-on {
+    background: #d63d40;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+.register-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 170px;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}
+
+.check-info {
+    display: block;
+    padding: 10px 75px 0;
+    width: auto;
+    font-size: 14px;
+    height: 14px;
+    color: #333;
+}
+
+.check-info a {
+    color: #448ca0;
+}
+
+.check-info a:hover {
+    text-decoration: underline;
+}
+
+.code-box {
+    position: relative;
+    width: 268px;
+    height: 40px;
+    line-height: 38px;
+    margin: 20px auto 0;
+    border-radius: 3px;
+}
+
+.code-input {
+    float: left;
+    outline: none;
+    width: 140px;
+    height: 40px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    border: 1px solid rgb(106, 106, 106);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.code-box img {
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 18px;
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 3px;
+}
+
+.switch-code {
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    width: 50px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.switch-code:hover a{
+    color: #D1393C;
+}

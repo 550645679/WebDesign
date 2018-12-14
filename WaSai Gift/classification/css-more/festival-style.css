@@ -1,0 +1,587 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url("../img-more/festival-img/festival.jpg") no-repeat center center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+/*
+导航栏 - begin*/
+.header-nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    z-index: 6;
+}
+
+.nav-box {
+    position: relative;
+    margin: 0 auto;
+    width: 480px;
+    height: 50px;
+}
+
+.nav-box-item {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-box-item > a {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-box-item:hover > a {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-weight: 600;
+}
+
+/*
+导航栏 - end*/
+
+.festival-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.list-img-info {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: #d63d40;
+    box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.67);
+}
+
+/*
+生日送礼 - begin*/
+.birthday-box {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: rgba(94, 94, 94, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+
+.box-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: 1200px;
+    width: 100%;
+    height: 700px;
+}
+
+.bir-con:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: -5px;
+    width: 13%;
+    height: 13%;
+    border: 2px solid transparent;
+    border-right-color: #333;
+    border-bottom-color: #333;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.box-container-left {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 650px;
+    border: 1px solid #a0a0a0;
+    overflow: hidden;
+}
+
+.birthday-img {
+    display: block;
+    width: 100%;
+    height: 650px;
+    transition: .4s;
+}
+
+.birthday-info {
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.info-item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.info-item h2 {
+    padding-top: 50px;
+}
+
+.info-item:before,
+.info-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.info-item:before {
+    top: 0;
+    left: 0;
+    border-top-color: #333;
+    border-left-color: #333;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.info-item:after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: #333;
+    border-right-color: #333;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.birthday-butt {
+    position: relative;
+    margin: 20px auto 0;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 25px;
+    background: #e73f42;
+    color: #fff;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.box-container-left:hover .birthday-img,
+.box-container-left:hover .occident-img {
+    transform: scale(1.2);
+}
+
+.box-container-left:hover .info-item:before,
+.box-container-left:hover .info-item:after {
+    width: 105%;
+    height: 105%;
+}
+
+.box-container-right {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 650px;
+}
+
+.birthday-gifts {
+    position: relative;
+    display: block;
+    width: 840px;
+    height: 650px;
+}
+
+.birthday-li {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: 325px;
+}
+
+.gifts-li-item {
+    position: relative;
+    padding: 10px 0 0 20px;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.occ-li-item:hover,
+.gifts-li-item:hover {
+    transform: translateY(-10px);
+}
+
+.gifts-li-item > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.li-item-img {
+    position: relative;
+    width: 260px;
+    height: 230px;
+    border: 1px solid #a0a0a0;
+}
+
+.li-item-img h4 {
+    position: absolute;
+    display: block;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background: rgba(114, 76, 104, 0.39);
+    border: 1px solid rgba(148, 148, 148, 0.65);
+}
+
+.gifts-li-item a p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.bir-img-1 {
+    background: url("../img-more/festival-img/birthday-img/birthday-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.bir-img-2 {
+    background: url("../img-more/festival-img/birthday-img/birthday-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.bir-img-3 {
+    background: url("../img-more/festival-img/birthday-img/birthday-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.bir-img-4 {
+    background: url("../img-more/festival-img/birthday-img/birthday-4.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.bir-img-5 {
+    background: url("../img-more/festival-img/birthday-img/birthday-5.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.bir-img-6 {
+    background: url("../img-more/festival-img/birthday-img/birthday-6.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+/*
+生日送礼 - end*/
+
+/*
+传统节日 - begin*/
+.tradition-box {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+
+.box-container-up {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url("../img-more/festival-img/tradition-img/tradition.jpg") no-repeat center center;
+    -webkit-background-size: 100% 300px;
+    background-size: 100% 300px;
+    border: 1px solid #a0a0a0;
+}
+
+.tra-con:before,
+.tra-con:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 13%;
+    height: 13%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.tra-con:before {
+    bottom: 15px;
+    left: -5px;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.tra-con:after {
+    bottom: 15px;
+    right: -5px;
+    border-bottom-color: #333;
+    border-right-color: #333;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.tradition-info {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 410px;
+    width: 380px;
+    height: 200px;
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.tradition-info h2 {
+    padding-top: 30px;
+}
+
+.tradition-butt {
+    position: relative;
+    margin: 20px auto 0;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #333;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.box-container-down {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding: 20px 10px;
+}
+
+.tradition-gifts {
+    position: relative;
+    display: block;
+    width: 1180px;
+    height: 310px;
+}
+
+.tradition-li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 310px;
+}
+
+.trad-img-1 {
+    background: url("../img-more/festival-img/tradition-img/tradition-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.trad-img-2 {
+    background: url("../img-more/festival-img/tradition-img/tradition-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.trad-img-3 {
+    background: url("../img-more/festival-img/tradition-img/tradition-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.trad-img-4 {
+    background: url("../img-more/festival-img/tradition-img/tradition-4.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+/*
+传统节日 - end*/
+
+/*
+西方节日 - begin*/
+.occident-box {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: rgba(94, 94, 94, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+
+.occ-con:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: -5px;
+    width: 13%;
+    height: 13%;
+    border: 2px solid transparent;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.occident-img {
+    display: block;
+    width: 100%;
+    height: 650px;
+    transition: .4s;
+}
+
+.occident-info {
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.occ-li-item {
+    position: relative;
+    padding: 10px 20px 0 0;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.occ-li-item h4 {
+    position: absolute;
+    display: block;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background: rgba(114, 76, 104, 0.39);
+    border: 1px solid rgba(148, 148, 148, 0.65);
+}
+
+.occ-li-item a p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.occ-img-1 {
+    background: url("../img-more/festival-img/occident-img/occident-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.occ-img-2 {
+    background: url("../img-more/festival-img/occident-img/occident-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.occ-img-3 {
+    background: url("../img-more/festival-img/occident-img/occident-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.occ-img-4 {
+    background: url("../img-more/festival-img/occident-img/occident-4.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.occ-img-5 {
+    background: url("../img-more/festival-img/occident-img/occident-5.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+.occ-img-6 {
+    background: url("../img-more/festival-img/occident-img/occident-6.jpg") no-repeat center center;
+    -webkit-background-size: 100% 230px;
+    background-size: 100% 230px;
+}
+
+/*
+西方节日 - end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
