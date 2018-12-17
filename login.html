@@ -1,12 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login | Title</title>
+    <title>登录 - 哇塞礼物网</title>
+    <link rel="stylesheet" href="css/reset-style.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/login-script.js"></script>
 </head>
 <body>
-    
+<div class="login-container">
+    <!--头部-->
+    <div class="header">
+        <!--标题栏-->
+        <div class="header-title">
+            <div class="header-container">
+                <div class="logo">
+                    <a href="index.html" title="首页">
+                        <h1>Wa<span class="h-span">sai</span>.com</h1>
+                    </a>
+                </div>
+                <div class="system">
+                    <div class="system-item">
+                        <a href="login.html" target="_blank">
+                            登录
+                        </a>
+                    </div>
+                    <div class="system-item">
+                        <a href="register.html" target="_blank">
+                            注册
+                        </a>
+                    </div>
+                </div>
+                <div class="seach-box">
+                    <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                    <input type="text" placeholder="个性亲子相册">
+                </div>
+            </div>
+        </div>
+        <!--登录框-->
+        <div class="navigation">
+            <div class="login-welcome-img">
+                <img id="login-img" src="img/login/login-1.png" alt="">
+                <div class="gradient"><!--图片渐变遮罩层--></div>
+                <div class="login-box">
+                    <div class="login-frame">
+                        <div class="frame-title"><h3>
+                            <i class="fa fa-sign-in" aria-hidden="true"></i> Login</h3>
+                        </div>
+                        <div class="frame-info"><p>赶紧登录为ta们定制礼物吧</p></div>
+                        <form action="index.html" onsubmit="return Login()">
+                            <div class="frame-box">
+                                <input type="text" name="Name" class="frame-input" id="name-input"
+                                       value="" placeholder="手机号码">
+                            </div>
+                            <p class="error-info" id="name-error"></p>
+                            <div class="frame-box">
+                                <input type="password" name="PassWord" class="frame-input" id="password-input"
+                                       value="" placeholder="密码">
+                            </div>
+                            <p class="error-info" id="password-error"></p>
+                            <div class="frame-box">
+                                <input type="submit" class="frame-butt" id="login-butt" value="登录">
+                            </div>
+                        </form>
+                        <div class="frame-bottom">
+                            <span class="frame-bottom-info">
+                                没有账号？
+                            </span>
+                            <a href="register.html" class="frame-bottom-info">
+                                立即注册
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <!--联系我们-->
+        <div class="doubt">
+            <div class="doubt-list">
+                <ul class="doubt-list-items">
+                    <li class="doubt-list-li">
+                        <div class="doubt-li-item">
+                            <a href="javascript:void(0);"><h5>关于我们</h5></a>
+                            <a href="javascript:void(0);"><p>网页团队</p></a>
+                            <a href="javascript:void(0);"><p>艺术工匠</p></a>
+                        </div>
+                    </li>
+                    <li class="doubt-list-li">
+                        <div class="doubt-li-item">
+                            <a href="javascript:void(0);"><h5>售后服务</h5></a>
+                            <a href="javascript:void(0);"><p>退换货</p></a>
+                            <a href="javascript:void(0);"><p>电子发票</p></a>
+                        </div>
+                    </li>
+                    <li class="doubt-list-li">
+                        <div class="doubt-li-item">
+                            <a href="javascript:void(0);"><h5>配送与验收</h5></a>
+                            <a href="javascript:void(0);"><p>快递</p></a>
+                        </div>
+                    </li>
+                    <li class="doubt-list-li">
+                        <div class="doubt-li-item">
+                            <a href="javascript:void(0);"><h5>交流合作</h5></a>
+                            <a href="javascript:void(0);"><p></p></a>
+                        </div>
+                    </li>
+                    <li class="doubt-list-li">
+                        <div class="doubt-li-item">
+                            <a href="javascript:void(0);"><h5>联系我们</h5></a>
+                            <a href="javascript:void(0);"><p>电话</p></a>
+                            <a href="javascript:void(0);"><p>邮箱</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--底部信息-->
+        <div class="footer-info">
+            <p>© 2017.12.04 LZZY 2016软件技术（服务与外包方向）一班</p>
+            <p><a href="javascript:void(0);">陆长颖组</a></p>
+        </div>
+    </div>
+</div>
+<!--感谢您的光临-->
+<div class="fixed-level">
+    <div class="fixed-level-out">
+        <h1 class="fixed-level-in"><span>THANG YOU FOR COMING</span></h1>
+    </div>
+</div>
 </body>
 </html>
