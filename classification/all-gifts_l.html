@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>全部商品 - 哇塞礼物网</title>
+    <link rel="stylesheet" href="../css/reset-style.css">
+    <link rel="stylesheet" href="css-more/main-style.css">
+    <link rel="stylesheet" href="css-more/font-awesome.min.css">
+    <link rel="stylesheet" href="css-more/all-gifts-style.css">
+    <script src="js-more/all-gifts-script.js"></script>
+    <script src="../layui/layui.all.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <!--标题栏-->
+    <div class="header-title">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../index_l.html" title="首页">
+                    <h1>Wa<span class="h-span">sai</span>.com</h1>
+                </a>
+            </div>
+            <div class="system">
+                <div class="system-item">
+                    <a href="#">
+                        <img src="../img/user.png" style="width:32px;padding-top:10px;" title="个人中心">
+                    </a>
+                </div>
+                <div class="system-item">
+                    <a href="#" onclick="OutFunction()"><script>function OutFunction(){layer.msg('退出成功！');setTimeout(window.location.href='../index.html',3000);}</script>
+                        退出
+                    </a>
+                </div>
+            </div>
+            <div class="seach-box">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                <input type="text" placeholder="个性亲子相册">
+            </div>
+        </div>
+    </div>
+    <!--信息框-->
+    <div class="header-info">
+        <div class="header-info-box">
+            <div class="info-box-title title-color">
+                <h1>精美礼品</h1>
+            </div>
+            <div class="info-box-list">
+                <p>生活是一位睿智的长者，生活是一位博学的老师，它常常春风化雨，润物无声地为我们指点迷津，给我们人生的启迪。</p>
+                <p>凡事尽力而为，不愧于心就好。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="header-nav-bar relative" id="nav-bar-relative">
+    <div class="nav-bar-box">
+        <div class="nav-bar-item">
+            <a class="nav-bar-item-href" href="../index_l.html">
+                <span>首页</span>
+            </a>
+        </div>
+        <div class="nav-bar-item">
+            <a class="nav-bar-item-href" href="festival-gifts_l.html">
+                <span>节日送礼</span>
+            </a>
+        </div>
+        <div class="nav-bar-item">
+            <a class="nav-bar-item-href" href="diy-gifts_l.html">
+                <span>定制礼物</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--商品列表-->
+<div class="all-gifts">
+    <div class="all-gifts-box">
+        <div class="all-container">
+            <div class="all-container-left">
+                <div class="all-list-item">
+                    <div class="list-item-title">
+                        <h5>送礼对象</h5>
+                        <p>Delivery object</p>
+                    </div>
+                    <div class="list-item-li" id="who">
+                        <div class="li-who all-li-on">全部</div>
+                        <div class="li-who">女朋友</div>
+                        <div class="li-who">男朋友</div>
+                        <div class="li-who">领导</div>
+                        <div class="li-who">老师</div>
+                        <div class="li-who">爸爸</div>
+                        <div class="li-who">妈妈</div>
+                        <div class="li-who">小孩</div>
+                        <div class="li-who">兄弟</div>
+                        <div class="li-who">闺蜜</div>
+                    </div>
+                </div>
+                <div class="all-list-item">
+                    <div class="list-item-title">
+                        <h5>数码科技</h5>
+                        <p>Digital</p>
+                    </div>
+                    <div class="list-item-li" id="electronics">
+                        <div class="li-who all-li-on">全部</div>
+                        <div class="li-who">U盘</div>
+                        <div class="li-who">移动电源</div>
+                        <div class="li-who">电子表</div>
+                        <div class="li-who">电子烟</div>
+                        <div class="li-who">小电扇</div>
+                        <div class="li-who">水晶球</div>
+                    </div>
+                </div>
+                <div class="all-list-item">
+                    <div class="list-item-title">
+                        <h5>木质工艺</h5>
+                        <p>Wood technology</p>
+                    </div>
+                    <div class="list-item-li" id="technology">
+                        <div class="li-who all-li-on">全部</div>
+                        <div class="li-who">木质手链</div>
+                        <div class="li-who">帆船</div>
+                        <div class="li-who">雕刻</div>
+                        <div class="li-who">木质水杯</div>
+                        <div class="li-who">可爱人偶</div>
+                        <div class="li-who">亲子相册</div>
+                    </div>
+                </div>
+            </div>
+            <div class="all-container-right">
+                <div class="all-list-shop">
+                    <div class="list-shop-title">
+                        <div class="shop-title-info">
+                            <h3>礼品列表</h3>
+                        </div>
+                        <div class="shop-checks">
+                            <div class="checks-info">筛选条件：</div>
+                        </div>
+                    </div>
+                    <div class="list-shop-item">
+                        <ul class="shop-item-ul">
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/diy-img/diy-2.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-1">
+                                            <h4>可爱搞怪马克杯</h4>
+                                        </div>
+                                        <p>定制 杯子</p>
+                                        <p>￥<span class="h-span">89.00</span></p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/diy-img/diy-3.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-2">
+                                            <h4>暖色移动电源</h4>
+                                        </div>
+                                        <p>定制 logo 科技</p>
+                                        <p>￥<span class="h-span">142.00</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/diy-img/diy-4.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-3">
+                                            <h4>绚丽水晶球</h4>
+                                        </div>
+                                        <p>定制 水晶 木质</p>
+                                        <p>￥<span class="h-span">165.00</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/festival-img/occident-img/occident-7.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-4">
+                                            <h4>多彩卡通U型枕</h4>
+                                        </div>
+                                        <p>定制 logo 刻字</p>
+                                        <p>￥<span class="h-span">55.00</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/festival-img/tradition-img/tradition-1.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-5">
+                                            <h4>大白人偶</h4>
+                                        </div>
+                                        <p>定制 人偶</p>
+                                        <p>￥<span class="h-span">365.00</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="shop-item-li">
+                                <a href="detailed-gifts_l.html?url=img-more/festival-img/occident-img/occident-6.jpg" target="_blank">
+                                    <div class="li-gifts-box">
+                                        <div class="all-gifts-img all-6">
+                                            <h4>复古相册</h4>
+                                        </div>
+                                        <p>定制 相册 木质</p>
+                                        <p>￥<span class="h-span">35.00</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="list-shop-bottom">
+                        <div class="page-box">
+                            <div class="page-item page-butt">
+                                <span>上一页</span>
+                            </div>
+                            <div class="page-item page-body">
+                                <div class="page-item-li page-li-on">1</div>
+                                <div class="page-item-li">2</div>
+                                <div class="page-item-li">3</div>
+                            </div>
+                            <div class="page-item page-butt">
+                                <span>下一页</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <!--联系我们-->
+    <div class="doubt">
+        <div class="doubt-list">
+            <ul class="doubt-list-items">
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>关于我们</h5></a>
+                        <a href="javascript:void(0);"><p>网页团队</p></a>
+                        <a href="javascript:void(0);"><p>艺术工匠</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>售后服务</h5></a>
+                        <a href="javascript:void(0);"><p>退换货</p></a>
+                        <a href="javascript:void(0);"><p>电子发票</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>配送与验收</h5></a>
+                        <a href="javascript:void(0);"><p>快递</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>交流合作</h5></a>
+                        <a href="javascript:void(0);"><p></p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>联系我们</h5></a>
+                        <a href="javascript:void(0);"><p>电话</p></a>
+                        <a href="javascript:void(0);"><p>邮箱</p></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部信息-->
+    <div class="footer-info">
+        <p>&copy; 2018.12.20 LZZY 2018计算机信息管理（软件外包与服务方向）1班</p>
+        <p><a href="javascript:void(0);">罗昕组</a></p>
+    </div>
+</div>
+<!--感谢您的光临-->
+<div class="fixed-level">
+    <div class="fixed-level-out">
+        <h1 class="fixed-level-in"><span>THANG YOU FOR COMING</span></h1>
+    </div>
+</div>
+</body>
+</html>

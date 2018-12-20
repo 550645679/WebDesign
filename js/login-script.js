@@ -61,7 +61,7 @@ window.onload = function () {
             password_error.innerHTML = error_info + '请输入密码';
             return;
         }
-        if(pwd_value === '123') {
+        if(pwd_value === '123456') {
             password_error.innerHTML = '';
             password_bool = true;
         } else {
@@ -76,15 +76,15 @@ window.onload = function () {
 /**
  * @return {boolean}
  */
-function Login () {
-    var error_info = "<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>";
-    if(name_bool && password_bool) {
-        return true;
-    } else {
-        var name_error      = document.getElementById('name-error'),
-            password_error  = document.getElementById('password-error');
-        name_error.innerHTML = error_info + "请输入手机号码";
-        password_error.innerHTML = error_info + '请输入密码';
-        return false;
-    }
-}
+// function Login () {
+//     var error_info = "<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>";
+//     if(name_bool && password_bool) {
+//         return true;
+//     } else {
+//         var name_error      = document.getElementById('name-error'),
+//             password_error  = document.getElementById('password-error');
+//         name_error.innerHTML = error_info + "请输入手机号码";
+//         password_error.innerHTML = error_info + '请输入密码';
+//         return false;
+//     }
+// }

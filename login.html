@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <title>登录 - 哇塞礼物网</title>
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/login-style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="js/login-script.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 <div class="login-container">
@@ -22,12 +23,12 @@
                 </div>
                 <div class="system">
                     <div class="system-item">
-                        <a href="login.html" target="_blank">
+                        <a href="login.html">
                             登录
                         </a>
                     </div>
                     <div class="system-item">
-                        <a href="register.html" target="_blank">
+                        <a href="register.html">
                             注册
                         </a>
                     </div>
@@ -49,15 +50,13 @@
                             <i class="fa fa-sign-in" aria-hidden="true"></i> Login</h3>
                         </div>
                         <div class="frame-info"><p>赶紧登录为ta们定制礼物吧</p></div>
-                        <form action="index.html" onsubmit="return Login()">
+                        <form action="index_l.html" onsubmit="return Login()" method="post">
                             <div class="frame-box">
-                                <input type="text" name="Name" class="frame-input" id="name-input"
-                                       value="" placeholder="手机号码">
+                                <input type="text" name="Name" class="frame-input" id="name-input" value="" placeholder="手机号码">
                             </div>
                             <p class="error-info" id="name-error"></p>
                             <div class="frame-box">
-                                <input type="password" name="PassWord" class="frame-input" id="password-input"
-                                       value="" placeholder="密码">
+                                <input type="password" name="PassWord" class="frame-input" id="password-input" value="" placeholder="密码">
                             </div>
                             <p class="error-info" id="password-error"></p>
                             <div class="frame-box">
@@ -120,15 +119,15 @@
         </div>
         <!--底部信息-->
         <div class="footer-info">
-            <p>© 2017.12.04 LZZY 2016软件技术（服务与外包方向）一班</p>
-            <p><a href="javascript:void(0);">陆长颖组</a></p>
+            <p>&copy; 2018.12.20 LZZY 2018计算机信息管理（软件外包与服务方向）1班</p>
+            <p><a href="javascript:void(0);">罗昕组</a></p>
         </div>
     </div>
 </div>
 <!--感谢您的光临-->
 <div class="fixed-level">
     <div class="fixed-level-out">
-        <h1 class="fixed-level-in"><span>THANG YOU FOR COMING</span></h1>
+        <h1 class="fixed-level-in"><span>THANG YOU VERY MUCH!</span></h1>
     </div>
 </div>
 </body>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>定制礼物 - 哇塞礼物网</title>
+    <link rel="stylesheet" href="../css/reset-style.css">
+    <link rel="stylesheet" href="css-more/main-style.css">
+    <link rel="stylesheet" href="css-more/font-awesome.min.css">
+    <link rel="stylesheet" href="css-more/diy-style.css">
+    <script src="../layui/layui.all.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <!--标题栏-->
+    <div class="header-title">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../index_l.html" title="首页">
+                    <h1>Wa<span class="h-span">sai</span>.com</h1>
+                </a>
+            </div>
+            <div class="system">
+                <div class="system-item">
+                    <a href="#">
+                        <img src="../img/user.png" style="width:32px;padding-top:10px;" title="个人中心">
+                    </a>
+                </div>
+                <div class="system-item">
+                    <a href="#" onclick="OutFunction()"><script>function OutFunction(){layer.msg('退出成功！');setTimeout(window.location.href='../index.html',3000);}</script>
+                        退出
+                    </a>
+                </div>
+            </div>
+            <div class="seach-box">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                <input type="text" placeholder="个性亲子相册">
+            </div>
+        </div>
+    </div>
+    <!--信息框-->
+    <div class="header-info">
+        <div class="header-info-box">
+            <div class="info-box-title title-color">
+                <h1>定制礼物区</h1>
+            </div>
+            <div class="info-box-list">
+                <p>回顾过去的一年，我们又错过了许多，那件并不是昂价的T恤 ，还有那块精美的怀表……错过的太多太多。</p>
+                <p>年轻，趁现在！</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="diy-box">
+    <!--礼物定制流程-->
+    <div class="diy-pass-box">
+        <div class="pass-container">
+            <div class="diy-gifts-title">
+                <div class="item-title">
+                    <h3>
+                        <i class="fa fa-cogs fa-2x" style="margin-right:15px;color: #d1393c;"></i>
+                        礼物定制流程
+                    </h3>
+                </div>
+                <div class="item-info">
+                    <p>客户的信任、支持和认可使我们前进的动力！</p>
+                </div>
+            </div>
+            <div class="diy-gifts-list">
+                <ul class="diy-list-ul">
+                    <li class="diy-list-li">
+                        <div class="diy-li-item">
+                            <div class="li-item-title">
+                                <h3>1.选购礼品</h3>
+                                <p>Buy gifts</p>
+                            </div>
+                            <div class="li-item-info">
+                                <div class="item-info-img">
+                                    <i class="fa fa-shopping-cart fa-4x"></i>
+                                </div>
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    众多精美礼品仍您选择
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="diy-list-li">
+                        <div class="diy-li-item">
+                            <div class="li-item-title">
+                                <h3>2.客服交流</h3>
+                                <p>Communication</p>
+                            </div>
+                            <div class="li-item-info">
+                                <div class="item-info-img">
+                                    <i class="fa fa-users fa-4x"></i>
+                                </div>
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    与客服交流，设计方案
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="diy-list-li">
+                        <div class="diy-li-item">
+                            <div class="li-item-title">
+                                <h3>3.提交订单</h3>
+                                <p>Place order</p>
+                            </div>
+                            <div class="li-item-info">
+                                <div class="item-info-img">
+                                    <i class="fa fa-sort-amount-asc fa-4x"></i>
+                                </div>
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    下单立即发货，免去等待
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="diy-list-li">
+                        <div class="diy-li-item">
+                            <div class="li-item-title">
+                                <h3>4.物流配送</h3>
+                                <p>Express</p>
+                            </div>
+                            <div class="li-item-info">
+                                <div class="item-info-img">
+                                    <i class="fa fa-truck fa-4x"></i>
+                                </div>
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    顺丰包邮，即刻送达
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--礼品定制推荐-->
+    <div class="diy-enum-box">
+        <div class="enum-container">
+            <div class="diy-enum-title">
+                <div class="item-title">
+                    <h3>
+                        <i class="fa fa-list fa-2x" style="margin-right:15px;color: #d1393c;"></i>
+                        礼品定制分类
+                    </h3>
+                </div>
+                <div class="item-info">
+                    <p>精美的礼品加上艺术工匠大师的手艺成就完美礼品！</p>
+                </div>
+            </div>
+            <div class="diy-enum-list">
+                <ul class="enum-list-ul">
+                    <li class="enum-list-li">
+                        <a href="all-gifts_l.html">
+                            <div class="enum-li-item">
+                                <img src="img-more/diy-img/diy-2.jpg" alt="">
+                                <h5>杯子</h5>
+                                <p>Glass</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="enum-list-li">
+                        <a href="all-gifts_l.html">
+                            <div class="enum-li-item">
+                                <img src="img-more/diy-img/diy-1.jpg" alt="">
+                                <h5>布偶</h5>
+                                <p>Muppet</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="enum-list-li">
+                        <a href="all-gifts_l.html">
+                            <div class="enum-li-item">
+                                <img src="img-more/diy-img/diy-3.jpg" alt="">
+                                <h5>移动电源</h5>
+                                <p>Power supply</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="enum-list-li">
+                        <a href="all-gifts_l.html">
+                            <div class="enum-li-item">
+                                <img src="img-more/diy-img/diy-4.jpg" alt="">
+                                <h5>水晶球</h5>
+                                <p>Crystal ball</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <!--联系我们-->
+    <div class="doubt">
+        <div class="doubt-list">
+            <ul class="doubt-list-items">
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>关于我们</h5></a>
+                        <a href="javascript:void(0);"><p>网页团队</p></a>
+                        <a href="javascript:void(0);"><p>艺术工匠</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>售后服务</h5></a>
+                        <a href="javascript:void(0);"><p>退换货</p></a>
+                        <a href="javascript:void(0);"><p>电子发票</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>配送与验收</h5></a>
+                        <a href="javascript:void(0);"><p>快递</p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>交流合作</h5></a>
+                        <a href="javascript:void(0);"><p></p></a>
+                    </div>
+                </li>
+                <li class="doubt-list-li">
+                    <div class="doubt-li-item">
+                        <a href="javascript:void(0);"><h5>联系我们</h5></a>
+                        <a href="javascript:void(0);"><p>电话</p></a>
+                        <a href="javascript:void(0);"><p>邮箱</p></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部信息-->
+    <div class="footer-info">
+        <p>&copy; 2018.12.20 LZZY 2018计算机信息管理（软件外包与服务方向）1班</p>
+        <p><a href="javascript:void(0);">罗昕组</a></p>
+    </div>
+</div>
+<!--感谢您的光临-->
+<div class="fixed-level">
+    <div class="fixed-level-out">
+        <h1 class="fixed-level-in"><span>THANG YOU FOR COMING</span></h1>
+    </div>
+</div>
+</body>
+</html>
